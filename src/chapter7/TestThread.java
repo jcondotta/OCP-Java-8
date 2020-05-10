@@ -4,6 +4,7 @@ import java.util.stream.Stream;
 
 public class TestThread {
 
+
     public static void main(String[] args) {
         Runnable runnablePrintValues = () -> {
             for(int i = 0; i < 1000; i++){
